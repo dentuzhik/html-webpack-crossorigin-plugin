@@ -1,0 +1,15 @@
+{
+  "name": "html-webpack-crossorigin-plugin",
+  "version": "0.0.1",
+  "description": "Plugin for htlm-webpack-plugin to add crossorigin attribute to injected scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dentuzhik/html-webpack-crossorigin-plugin"
+  },
+  "author": "Denis Tuzhik <dentuzhik@gmail.com> (https://github.com/dentuzhik)",
+  "license": "ISC"
+}
