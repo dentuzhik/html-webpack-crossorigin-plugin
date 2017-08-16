@@ -12,7 +12,7 @@ function addCrossoriginAttrubuteToScripts(htmlPluginData, callback) {
     htmlPluginData.head.filter(filterScriptTags).forEach(addCrossoriginAttrubuteToScript);
     htmlPluginData.body.filter(filterScriptTags).forEach(addCrossoriginAttrubuteToScript);
 
-    callback(null);
+    callback(null, htmlPluginData);
 }
 
 function HtmlWebpackCrossoriginPlugin() {}
